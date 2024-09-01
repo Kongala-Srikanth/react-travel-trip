@@ -1,0 +1,11 @@
+.next-pre-btn-container {
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .next-pre-btn-container {
+    align-self: flex-end;
+    position: fixed;
+    bottom: 20%;
+  }
+}
